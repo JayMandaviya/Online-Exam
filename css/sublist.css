@@ -1,0 +1,41 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header{
+    background-color: #32be8f;
+    width: 100%;
+    height: 8vh;
+    top: 0%;
+    padding: 0;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.logo{
+	float: left;
+	padding: 1rem;
+	font-size: 20px;
+	color: #333;
+	cursor: pointer;
+}
+
+.navi-link{
+	float: right;
+	color: gray;
+	padding: 1rem;
+	font-size: 20px;
+	z-index: 2;
+}
+
+.navi-link:hover{
+	color: #333;
+	cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
